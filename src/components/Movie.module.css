@@ -16,19 +16,19 @@
 
 .movie__img {
   position: relative;
-  top: 0px;
+  top: -50px;
   max-width: 150px;
   width: 100%;
   margin-right: 30px;
-  box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.25),
+  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
     0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
 }
 
 .movie__title,
 .movie__year {
   margin: 0;
-  /* font-weight: 300; */
   text-decoration: none;
+  vertical-align: middle;
 }
 
 .movie__title a {
@@ -42,7 +42,6 @@
   list-style: none;
   padding: 0;
   margin: 0;
-
   display: flex;
   flex-wrap: wrap;
   margin: 5px 0px;
@@ -51,5 +50,5 @@
 .movie__genres li,
 .movie__year {
   margin-right: 10px;
-  font-size: 16px;
+  font-size: 15px;
 }
